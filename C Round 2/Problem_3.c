@@ -1,0 +1,12 @@
+/*
+Statement: Find average.
+Expected Output: 2
+*/
+
+#include <stdio.h>
+int main() {
+    int a = 1, b = 2, c = 3;
+    int avg = a + b + c / 3;
+    printf("%d", avg);
+    return 0;
+}
